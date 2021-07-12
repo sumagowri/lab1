@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+input {
+  width: 90%;
+  height: 100%;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+}
+
+.inputtext {
+  padding: 0rem 1rem;
+}
+
+table {
+  width: 15%;
+  height: 35%;
+  background-color: black;
+  border-radius: 8px;
+  padding: 6px;
+  margin: 10px 10px 10px 10px;
+}
+
+td {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+}
